@@ -1,7 +1,7 @@
 {
-  "name": "vite-plugin-mdx-to-html",
-  "version": "0.0.16",
-  "description": "Vite Plugin to turn MDX files into HTML",
+  "name": "vite-plugin-jsx-to-html",
+  "version": "0.0.1",
+  "description": "Vite Plugin to turn JSX files into HTML",
   "main": "./build/index.js",
   "module": "./build/index.js",
   "types": "./build/index.d.ts",
@@ -24,12 +24,12 @@
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
     "typescript": "^4.7.4",
-    "vite": "^3.0.9"
+    "vite": "^3.0.9",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@mdx-js/rollup": "^2.3.0"
   },
   "peerDependencies": {
-    "@mdx-js/rollup": "^2"
-  },
-  "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
