@@ -2,7 +2,7 @@
 
 Vite Plugin to turn JSX into HTML string.
 
-**Stackblitz Example:** https://stackblitz.com/edit/vite-plugin-mdx-to-html?file=docs.mdx
+**Stackblitz Example:** https://stackblitz.com/edit/vite-plugin-jsx-to-html?file=vite.config.js
 
 > **Warning**
 >
@@ -30,7 +30,7 @@ import { vitePluginJSXToHTML } from 'vite-plugin-jsx-to-html';
 export default defineConfig({
   plugins: [
     vitePluginJSXToHTML({
-      extension: ['.special.jsx']
+      extension: ['.special.jsx'] // optional
     }
   )],
 });

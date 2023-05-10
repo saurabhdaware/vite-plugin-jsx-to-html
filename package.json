@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-jsx-to-html",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Vite Plugin to turn JSX files into HTML",
   "main": "./build/index.js",
   "module": "./build/index.js",
@@ -29,7 +29,7 @@
     "react-dom": "^18.2.0",
     "@mdx-js/rollup": "^2.3.0"
   },
-  "peerDependencies": {
+  "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
